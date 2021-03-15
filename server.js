@@ -14,3 +14,5 @@ app.get("/", async (req, res) => {
 app.listen(port, () => {
   console.log(`API server listening at port ${port}`);
 });
+
+module.exports = app;
